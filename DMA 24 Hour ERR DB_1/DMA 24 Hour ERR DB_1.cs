@@ -83,7 +83,7 @@ namespace DMA_24_Hour_ERR_DB_1
             {
                 TestResult testResult = new TestResult
                 {
-                    ParameterName = "24 Hour ERR DBs",
+                    ParameterName = "DMA 24 Hour ERR DB",
                     DmaName = agent.Item1,
                     ReceivedValue = Convert.ToString(alarmMessages.Count(x => agent.Item2.Equals(x.HostingAgentID) && x.ParameterName == "Database")),
                 };
